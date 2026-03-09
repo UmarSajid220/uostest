@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind-practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kapakana:wght@300..400&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    <header>
+      <div id="upper-header" class="flex gap-8 justify-end p-4">
+        <div id="call" class="flex gap-4">
+          <img src="./public/icons/call.svg" class="h-6" alt="call">
+          <a href="tel:92409200432">+92-40-9200432</a>
+        </div>
+        <div id="email" class="flex gap-4">
+          <img src="./public/icons/sms.svg" class="h-6" alt="email">
+          <a href="mailto:info@uosahiwal.edu.pk">info@uosahiwal.edu.pk</a>
+        </div>
+      </div>
+      <div id="main-header" class="flex items-center justify-between p-4 border-b">
+        <img src="./public/icons/LOGO.svg" class="h-20" alt="UOS-logo">
+        <nav>
+          <ul class="flex items-center gap-8">
+            <li><a href="./src/Pages/about.html" class="flex items-center gap-2">
+              <span>About</span>
+              <img src="./public/icons/arrow-down.svg" class="h-3" alt="arrow">
+            </a></li>
+            <li><a href="./src/Pages/about.html" class="flex items-center gap-2">
+              <span>About</span>
+              <img src="./public/icons/arrow-down.svg" class="h-3" alt="arrow">
+            </a></li>
+            <li><a href="./src/Pages/about.html" class="flex items-center gap-2">
+              <span>About</span>
+              <img src="./public/icons/arrow-down.svg" class="h-3" alt="arrow">
+            </a></li>
+            <li><a href="./src/Pages/about.html" class="flex items-center gap-2">
+              <span>About</span>
+              <img src="./public/icons/arrow-down.svg" class="h-3" alt="arrow">
+            </a></li>
+            <li><a href="./src/Pages/about.html" class="flex items-center gap-2">
+              <span>About</span>
+              <img src="./public/icons/arrow-down.svg" class="h-3" alt="arrow">
+            </a></li>
+            <li><a href="./src/Pages/about.html" class="flex items-center gap-2">
+              <span>About</span>
+              <img src="./public/icons/arrow-down.svg" class="h-3" alt="arrow">
+            </a></li>
+            <li><a href="./src/Pages/about.html" class="flex items-center gap-2">
+              <span>About</span>
+              <img src="./public/icons/arrow-down.svg" class="h-3" alt="arrow">
+            </a></li>
+          </ul>
+        </nav>
+        <div id="buttons" class="flex gap-4">
+          <button onclick="window.location.href='./public/Pages/register.html'" class="bg-[#003B9F] hover:bg-[#01235e] transition-all text-white px-8 py-2 rounded-xl">Register Now</button>
+          <button onclick="window.location.href='./public/Pages/contact.html'" class="bg-white text-black border px-8 py-2 rounded-xl">Contact Us</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="hero-section">
+        <img src="./public/banners/Hero-Bg.png" alt="hero-background">
+        <h1 class="text-6xl text-center leading-3">
+          <span style="font-family: 'Kapakana';" class="text-8xl">Youth,</span> <span class="font-semibold text-[#FEC411]">Learning,</span> <br>and the <span class="underline">Future</span> of South Punjab
+        </h1>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
